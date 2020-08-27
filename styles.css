@@ -110,16 +110,41 @@ h3 {
   padding: 5% 2%;
 }
 
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 1.5rem;
+  }
+}
+
 /* CTA Section */
 #cta {
   background-color: #cf1b1b;
-  padding: 100px;
+  padding: 7% 5%;
   text-align: center;
   color: #fff;
 }
 
+.cta-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
 /* Footer Section */
 #footer {
-  padding: 10px;
+  padding: 2% 1%;
   text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
 }
