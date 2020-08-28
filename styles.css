@@ -1,35 +1,42 @@
 body {
-  font-family: "Montserrat"
-}
-
-#title {
-  background-color: #cf1b1b;
-  color: #fff;
+  font-family: "Montserrat";
 }
 
 .container-fluid {
   padding: 3% 15% 0;
 }
 
-h1 {
+/* Headings Section  */
+
+.big-heading {
   font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  line-height: 1.5;
+}
+
+h1 {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
 }
 
-h2 {
-  font-family: "Montserrat";
-  font-size: 2rem;
-  line-height: 1.5;
-  font-weight: 700;
-}
-
 h3 {
-  font-family: "Montserrat";s
   line-height: 1.5;
   color: #423144;
 }
+
+/* Navigation Bar */
 
 .navbar {
   padding: 0 0 4.5rem;
@@ -55,6 +62,21 @@ h3 {
   margin: 5% 3% 5% 0%;
 }
 
+/* Colored Section  */
+.colored-section {
+  background-color: #cf1b1b;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title Section */
+#title {
+  text-align: left;
+}
+
 /* Features Section  */
 #features {
   padding: 7% 15%;
@@ -77,13 +99,17 @@ h3 {
 
 #testimonials {
   text-align: center;
-  background-color: #cf1b1b;
   color: #fff;
 }
 
 .testimonial-image {
   width: 20%;
   margin: 50px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .carousel-item {
@@ -104,6 +130,12 @@ h3 {
   padding: 100px;
   text-align: center;
   color: #423144;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
 
 .pricing-column {
@@ -142,6 +174,21 @@ h3 {
     margin-top: 5rem;
   }
 
+  .navbar-brand  {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3.5rem
+  }
+
+  .nav-item {
+    font-family: "Montserrat";
+    weight: 200;
+    padding: 0 18px
+  }
+
+  .nav-link {
+    font-size: 2.4rem;
+  }
 
 }
 
